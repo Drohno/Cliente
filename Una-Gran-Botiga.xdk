@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "b384d701-d406-4b4b-87ec-78f4198c5c01",
-      "lastModifiedDate": 1465153053975,
+      "lastModifiedDate": 1465211665928,
       "creationDate": 1462379172914
     },
     "XDK-app-designer": "true",
@@ -39,9 +39,39 @@
         "checksum": "927290ca",
         "dependsOn": [],
         "topLevel": true,
-        "cordovaVersion": ">=3.0.0",
         "permissions": {},
         "description": "Cordova Device Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "phonegap-plugin-push",
+        "name": "PushPlugin",
+        "version": "1.6.4",
+        "originType": "repo",
+        "origin": "https://github.com/Drohno/phonegap-plugin-push.git",
+        "gitref": "",
+        "subdir": ".",
+        "paramvals": {
+          "SENDER_ID": "443647167733"
+        },
+        "sourceLocation": "plugins/phonegap-plugin-push",
+        "selectedState": "Included",
+        "checksum": "615fe010",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.6.3",
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.VIBRATE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "${applicationId}.permission.C2D_MESSAGE"
+          ]
+        },
+        "description": "\r\n\t\tThis plugin allows your application to receive push notifications on Android, iOS and Windows devices.\r\n    Android uses Google Cloud Messaging.\r\n    iOS uses Apple APNS Notifications.\r\n    Windows uses Microsoft WNS Notifications.\r\n\t",
         "data": {},
         "dependedBy": []
       }

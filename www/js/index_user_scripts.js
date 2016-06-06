@@ -431,7 +431,7 @@ function register_event_handlers()
     var txt;
     //Comprobamos que el dispositivo esta listo para pedir el id a GCM
     document.addEventListener("deviceready", function(){
-        pushNotification = window.plugins.pushNotification;
+        pushNotification = window.plugins.PushNotification;
         window.console.log("Device Ready");
         window.plugins.pushNotification.unregister(successHandler, errorHandler);
         window.console.log("Unregistered");
