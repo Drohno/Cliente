@@ -44,57 +44,6 @@
         "description": "Cordova Device Plugin",
         "data": {},
         "dependedBy": []
-      },
-      {
-        "id": "cordova-plugin-statusbar",
-        "name": "StatusBar",
-        "version": "2.1.0",
-        "originType": "cordova.io",
-        "origin": "cordova-plugin-statusbar",
-        "gitref": "",
-        "paramvals": {},
-        "sourceLocation": "plugins/cordova-plugin-statusbar",
-        "selectedState": "Included",
-        "checksum": "858cc583",
-        "dependsOn": [],
-        "topLevel": true,
-        "cordovaVersion": ">=3.0.0",
-        "permissions": {},
-        "description": "Cordova StatusBar Plugin",
-        "data": {},
-        "dependedBy": []
-      },
-      {
-        "id": "com.phonegap.plugins.PushPlugin",
-        "name": "PushPlugin",
-        "version": "2.5.0",
-        "originType": "local",
-        "origin": "/C/Users/David/Desktop/PFGS/com.phonegap.plugins.PushPlugin",
-        "gitref": "",
-        "paramvals": {},
-        "sourceLocation": "plugins/com.phonegap.plugins.PushPlugin",
-        "selectedState": "Included",
-        "checksum": "75197821",
-        "dependsOn": [],
-        "topLevel": true,
-        "cordovaVersion": ">=3.0.0",
-        "author": "Bob Easterday",
-        "permissions": {
-          "android:name": [
-            "android.permission.ACCESS_NETWORK_STATE",
-            "android.permission.GET_ACCOUNTS",
-            "android.permission.WAKE_LOCK",
-            "android.permission.VIBRATE",
-            "com.google.android.c2dm.permission.RECEIVE",
-            "$PACKAGE_NAME.permission.C2D_MESSAGE",
-            "$PACKAGE_NAME.permission.RECEIVE_ADM_MESSAGE",
-            "com.amazon.device.messaging.permission.RECEIVE"
-          ]
-        },
-        "description": "\n\t\tThis plugin allows your application to receive push notifications on Android, iOS, WP8 and Windows8 devices.\n    Android uses Google Cloud Messaging.\n    iOS uses Apple APNS Notifications.\n    WP8 uses Microsoft MPNS Notifications.\n    Windows8 uses Microsoft WNS Notifications.\n\t",
-        "data": {},
-        "dependedBy": [],
-        "custom": "true"
       }
     ],
     "buildConfigurations": {
@@ -169,7 +118,7 @@
           "deployment-target": "8.0"
         },
         "isActive_": false,
-        "appName_": "Cliente",
+        "appName_": "Una-Gran-Botiga",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
           "mode": "whitelist",
@@ -210,7 +159,7 @@
           "windows-publisher-id": ""
         },
         "isActive_": false,
-        "appName_": "Cliente",
+        "appName_": "",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
           "mode": "whitelist",
@@ -238,7 +187,7 @@
         "name_": "WebApp",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "Cliente",
+        "appName_": "Una-Gran-Botiga",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -262,7 +211,7 @@
         "name_": "Chrome",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "Cliente",
+        "appName_": "Una-Gran-Botiga",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -286,7 +235,7 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "Cliente",
+        "appName_": "Una-Gran-Botiga",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -310,7 +259,7 @@
         "name_": "Facebook",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "Cliente",
+        "appName_": "Una-Gran-Botiga",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -334,7 +283,7 @@
         "name_": "WP81",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "Cliente",
+        "appName_": "Una-Gran-Botiga",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
